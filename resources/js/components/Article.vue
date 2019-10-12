@@ -76,8 +76,8 @@
               prev_page_url: links.prev
 
             };
-            this.pagination = pagination;
-         },
+         },            this.pagination = pagination;
+
          deleteArticles(id){
             if(confirm('Are you sure?')){
                fetch(`api/articles/${id}` ,{
